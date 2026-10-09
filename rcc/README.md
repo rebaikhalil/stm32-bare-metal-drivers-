@@ -96,7 +96,7 @@ int main(void)
     /* Keep the reset-default clock or configure SYSCLK. */
 
     /* Enable GPIOA before accessing its registers. */
-    rcc_enable_gpio_clock('A');
+    rcc_enable_gpio_clock(led);
 
     /* Configure GPIOA pins here. */
 
